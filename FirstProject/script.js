@@ -126,4 +126,135 @@ let cond2 = a < b; // false
 console.log("cond1 = " + cond1 + ", cond2 = " + cond2); // Displaying the values of cond1 and cond2
 console.log("cond1 && cond2 = " + (cond1 && cond2)); // Logical (&&) AND
 console.log("cond1 || cond2 = " + (cond1 || cond2)); // Logical (||) OR
-console.log("!cond1 = " + (!cond1)); // Logical (!) NOT
+console.log("!cond1 = " + (!cond1)); // Logical (!) NOT 
+
+// Conditional Statements
+
+// IF Statement 
+
+let age = 14; // You can change the value of age to test different scenarios
+if (age >= 18) {
+    console.log("You are eligible to vote."); // This line will be executed if the condition is true
+} else { // This line will be executed if the condition is false
+    console.log("You are not eligible to vote."); // This line will be executed if the condition is false
+}
+
+let mode = "dark"; // You can change the value of mode to test different scenarios
+let color;
+if (mode === "dark") {
+    color = "black"; // This line will be executed if the condition is true
+}
+
+if (mode === "light") {
+    color = "white"; // This line will be executed if the condition is true
+} 
+
+console.log("The color is " + color); // This line will be executed regardless of the condition
+
+// IF-ELSE Statement
+
+let mode2 = "light"; // You can change the value of mode2 to test different scenarios
+let color2;
+if (mode2 === "dark") {
+    color2 = "black"; // This line will be executed if the condition is true
+} else { // This line will be executed if the condition is false
+    color2 = "white"; // This line will be executed if the condition is false
+}
+console.log("The color is " + color2); // This line will be executed regardless of the condition
+
+let age2 = 20; // You can change the value of age2 to test different scenarios
+if (age2 < 13) {
+    console.log("You are a child."); // This line will be executed if the condition is true
+} else {
+    console.log("You are not a child."); // This line will be executed if the condition is false
+}
+
+// Odd-Even Number Check
+
+let number1 = 7;
+if (number1 % 2 === 0) {
+    console.log(number1 + " The number is even."); // This line will be executed if the condition is true
+} else {
+    console.log(number1 + " The number is odd."); // This line will be executed if the condition is false
+}
+
+// ELSE-IF Statement
+
+let marks = 85;
+if (marks >= 90) {
+    console.log(marks + " Grade: A"); // This line will be executed if the condition is true
+} else if (marks >= 80) {
+    console.log(marks + " Grade: B"); // This line will be executed if the condition is true
+} else {
+    console.log(marks + " Grade: C"); // This line will be executed if the condition is false
+}   
+
+let mode3 = "dark"; // You can change the value of mode3 to test different scenarios
+let color3;
+if (mode3 === "dark") {
+    color3 = "black"; // This line will be executed if the condition is true
+} else if (mode3 === "light") {
+    color3 = "white"; // This line will be executed if the condition is false
+} else {
+    color3 = "gray"; // This line will be executed if the condition is false
+}
+
+console.log("The color is " + color3); // This line will be executed regardless of the condition
+
+// Ternary Operator
+//condition ? expressionIfTrue : expressionIfFalse
+
+let age3 = 18;
+let result = (age3 >= 18) ? "You are adult." : "You are not adult.";
+console.log(result); // This line will be executed regardless of the condition
+
+let number2 = 10;
+let result2 = (number2 % 2 === 0) ? "The number is even." : "The number is odd.";
+console.log(result2 ); // This line will be executed regardless of the condition
+
+// Switch Statement
+
+let day = 4; // You can change the value of day to test different scenarios 
+switch (day) {
+    case 1:
+        console.log("Monday"); // This line will be executed if day is 1
+        break;
+    case 2:
+        console.log("Tuesday"); // This line will be executed if day is 2
+        break;
+    case 3:
+        console.log("Wednesday"); // This line will be executed if day is 3
+        break;
+    default:
+        console.log("Invalid day"); // This line will be executed if day doesn't match any case
+}
+
+// MDN Web Docs is a great resource for learning JavaScript and web development in general. You can find tutorials, references, and guides on various topics related to web development. Here are some useful links:
+// JavaScript Guide: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide
+// JavaScript Reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
+// HTML Guide: https://developer.mozilla.org/en-US/docs/Web/HTML
+// CSS Guide: https://developer.mozilla.org/en-US/docs/Web/CSS
+// Web Development Tutorials: https://developer.mozilla.org/en-US/docs/Learn
+
+// Practice Questions 
+/*
+let num = prompt("Enter a number: "); // Prompting the user to enter a number
+if (num % 5 === 0){
+    console.log(num + " is a multiple of 5");
+} else {
+    console.log(num + " is not a multiple of 5");
+}
+} */
+
+let num2 = prompt("Enter a grade: "); // Prompting the user to enter a grade
+if (num2 >= 80 && num2 <= 100) {
+    console.log("Grade A");
+} else if (num2 >= 70 && num2 <= 80) {
+    console.log("Grade B");
+} else if (num2 >= 60 && num2 <= 69) {
+    console.log("Grade C");
+} else if (num2 >= 50 && num2 <= 59) {
+    console.log("Grade D");
+} else {num2 <= 50 && num2 >= 0
+    console.log("Grade F");
+}
