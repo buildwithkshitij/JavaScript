@@ -72,9 +72,58 @@ let y = 10;
 
 console.log("Assignment Operators");
 console.log("x = " + x + ", y = " + y); // Displaying the values of x and y
+console.log("x = ", x); // Assignment
 console.log("x += y = " + (x += y)); // Addition Assignment
 console.log("x -= y = " + (x -= y)); // Subtraction Assignment
 console.log("x *= y = " + (x *= y)); // Multiplication Assignment
 console.log("x /= y = " + (x /= y)); // Division Assignment
 console.log("x %= y = " + (x %= y)); // Modulus Assignment
 console.log("x **= y = " + (x **= y)); // Exponentiation Assignment
+
+// Arithmetic Assignment Operators
+console.log("Arithmetic Assignment Operators");
+x += 4; 
+console.log("x += 4 = " + x); // Addition Assignment
+x -= 2;
+console.log("x -= 2 = " + x); // Subtraction Assignment
+x *= 3;
+console.log("x *= 3 = " + x); // Multiplication Assignment
+x /= 2;
+console.log("x /= 2 = " + x); // Division Assignment
+x %= 5;
+console.log("x %= 5 = " + x); // Modulus Assignment
+x **= 2;
+console.log("x **= 2 = " + x); // Exponentiation Assignment 
+
+// Comparison Operators
+let m = 15;
+let n = 20;
+
+console.log("Comparison Operators");
+console.log("m = " + m + ", n = " + n);
+console.log("m == n = " + (m == n)); // Equal to
+console.log("m != n = " + (m != n)); // Not equal to
+console.log("m < n = " + (m < n)); // Less than
+console.log("m > n = " + (m > n)); // Greater than
+console.log("m <= n = " + (m <= n)); // Less than or equal to
+console.log("m >= n = " + (m >= n)); // Greater than or equal to
+n = "15"; // Changing the value of n to a string
+console.log("m === n = " + (m === n)); // Strict equal to
+console.log("m !== n = " + (m !== n)); // Strict not equal to
+
+// Logical Operators
+let p = true;
+let q = false;
+
+console.log("Logical Operators");
+console.log("p = " + p + ", q = " + q); // Displaying the values of p and q
+console.log("p && q = " + (p && q)); // Logical (&&) AND
+console.log("p || q = " + (p || q)); // Logical (||) OR
+console.log("!p = " + (!p)); // Logical (!) NOT
+
+let cond1 = a > b; // true
+let cond2 = a < b; // false
+console.log("cond1 = " + cond1 + ", cond2 = " + cond2); // Displaying the values of cond1 and cond2
+console.log("cond1 && cond2 = " + (cond1 && cond2)); // Logical (&&) AND
+console.log("cond1 || cond2 = " + (cond1 || cond2)); // Logical (||) OR
+console.log("!cond1 = " + (!cond1)); // Logical (!) NOT
