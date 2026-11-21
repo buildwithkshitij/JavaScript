@@ -51,9 +51,30 @@ let b = 10;
 
 console.log("Arithmetic Operators");
 console.log("a = " + a + ", b = " + b); // Displaying the values of a and b
-console.log(a + b); // Addition
-console.log(a - b); // Subtraction
-console.log(a * b); // Multiplication
-console.log(a / b); // Division
-console.log(a % b); // Modulus
+console.log("a + b = " + (a + b)); // Addition
+console.log("a - b = " + (a - b)); // Subtraction
+console.log("a * b = " + (a * b)); // Multiplication
+console.log("a / b = " + (a / b)); // Division
+console.log("a % b = " + (a % b)); // Modulus
+console.log("a ** b = " + (a ** b)); // Exponentiation
+console.log("a++ = " + (a++)); // Increment
+console.log("a-- = " + (a--)); // Decrement
+console.log("b++ = " + (b++)); // Increment
+console.log("b-- = " + (b--)); // Decrement
+console.log("++a = " + (++a)); // Pre-increment
+console.log("--a = " + (--a)); // Pre-decrement
+console.log("++b = " + (++b)); // Pre-increment
+console.log("--b = " + (--b)); // Pre-decrement
 
+// Assignment Operators
+let x = 5;
+let y = 10;
+
+console.log("Assignment Operators");
+console.log("x = " + x + ", y = " + y); // Displaying the values of x and y
+console.log("x += y = " + (x += y)); // Addition Assignment
+console.log("x -= y = " + (x -= y)); // Subtraction Assignment
+console.log("x *= y = " + (x *= y)); // Multiplication Assignment
+console.log("x /= y = " + (x /= y)); // Division Assignment
+console.log("x %= y = " + (x %= y)); // Modulus Assignment
+console.log("x **= y = " + (x **= y)); // Exponentiation Assignment
