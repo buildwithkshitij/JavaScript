@@ -245,7 +245,7 @@ if (num % 5 === 0){
     console.log(num + " is not a multiple of 5");
 }
 } */
-
+/*
 let num2 = prompt("Enter a grade: "); // Prompting the user to enter a grade
 if (num2 >= 80 && num2 <= 100) {
     console.log("Grade A");
@@ -258,3 +258,5 @@ if (num2 >= 80 && num2 <= 100) {
 } else {num2 <= 50 && num2 >= 0
     console.log("Grade F");
 }
+*/
+
