@@ -82,7 +82,7 @@ console.log("x **= y = " + (x **= y)); // Exponentiation Assignment
 
 // Arithmetic Assignment Operators
 console.log("Arithmetic Assignment Operators");
-x += 4; 
+x += 4;
 console.log("x += 4 = " + x); // Addition Assignment
 x -= 2;
 console.log("x -= 2 = " + x); // Subtraction Assignment
@@ -147,7 +147,7 @@ if (mode === "dark") {
 
 if (mode === "light") {
     color = "white"; // This line will be executed if the condition is true
-} 
+}
 
 console.log("The color is " + color); // This line will be executed regardless of the condition
 
@@ -187,7 +187,7 @@ if (marks >= 90) {
     console.log(marks + " Grade: B"); // This line will be executed if the condition is true
 } else {
     console.log(marks + " Grade: C"); // This line will be executed if the condition is false
-}   
+}
 
 let mode3 = "dark"; // You can change the value of mode3 to test different scenarios
 let color3;
@@ -210,7 +210,7 @@ console.log(result); // This line will be executed regardless of the condition
 
 let number2 = 10;
 let result2 = (number2 % 2 === 0) ? "The number is even." : "The number is odd.";
-console.log(result2 ); // This line will be executed regardless of the condition
+console.log(result2); // This line will be executed regardless of the condition
 
 // Switch Statement
 
@@ -260,3 +260,105 @@ if (num2 >= 80 && num2 <= 100) {
 }
 */
 
+// Loops and Strings
+
+// for loop
+
+console.log("Loops and Strings");
+console.log("For Loop");
+for (let i = 1; i <= 10; i++) {
+    console.log("TIT Bhopal"); // This line will be executed 10 times
+}
+
+console.log("Loop ended"); // This line will be executed after the loop ends
+
+// Calculate sum of 1 to 5
+let sum = 0;
+for (let i = 1; i <= 5; i++) {
+    sum += i;
+}
+console.log("Sum of 1 to 5 is: " + sum); // This line will be executed after the loop ends
+console.log("loop ended"); // This line will be executed after the loop ends
+
+for (let i = 1; i <= 5; i++) {
+    console.log("i = " + i); // This line will be executed 5 times
+}
+
+console.log("Loop ended");
+
+// while loop
+
+console.log("While Loop");
+/*
+while ( condition ) {
+    // code block to be executed
+} 
+*/
+
+let j = 1;
+while (j <= 5) {
+    console.log("j = " + j); // This line will be executed 5 times
+    j++;
+}
+console.log("While loop ended");
+
+// do-while loop
+
+console.log("Do-While Loop");
+let k = 15;
+do {
+    console.log("Mohan");
+    k++;
+} while (k <= 5);
+console.log("Do-While loop ended");
+
+// for...of loop
+
+console.log("For...of Loop");
+/* 
+for(let val of strVar) {
+    // do some work
+} 
+*/
+
+let str = "Hello";
+for (let char of str) {
+    console.log(char);
+}
+
+let str2 = "Technocrats";
+let size = 0;
+for (let i of str2) {
+    console.log("i=" + i);
+    size++;
+}
+console.log("Size of str2 is: " + size);
+
+// for...in loop
+
+console.log("For...in Loop");
+
+let student1 = {
+    name: "Alice",
+    age: 20,
+    grade: "A",
+    isPass: true,
+};
+
+for (let key in student1) {
+    console.log("Key: " + key + ", Value: " + student1[key]);
+}
+
+// Print all even numbers from 0 to 100.
+
+console.log("Print all even numbers from 0 to 100.");
+for (let i = 0; i<=100; i += 2){
+    console.log("i = " + i);
+}
+
+console.log("Print all odd numbers from 0 to 100.");
+for (let num4 = 0; num4 <= 100; num4++){
+    if (num4 % 2 !== 0){
+        console.log("num4 = " + num4);
+    }
+}
