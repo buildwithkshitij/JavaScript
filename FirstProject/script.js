@@ -362,3 +362,60 @@ for (let num4 = 0; num4 <= 100; num4++){
         console.log("num4 = " + num4);
     }
 }
+
+// Strings 
+
+// string is a sequence of characters used to represent text 
+
+let str3 = "king";
+let str4 = 'yadav';
+
+console.log("str3.length " +  str3.length)
+
+console.log(str3[2])
+
+// Template Literals
+
+console.log("Template Literals")
+let specialString = `this is a template literal ${1 + 2 + 3}` ;
+console.log(specialString)
+console.log(typeof specialString);
+
+let obj = {
+    item : "pen",
+    price : 10,
+};
+
+console.log("the cost of", obj.item, "is", obj.price, "rupees");
+
+let output = `the cost of ${obj.item} is ${obj.price} rupees`;
+console.log("let output = `the cost of ${obj.item} is ${obj.price} rupees`;");
+console.log(output);
+
+//String Interpolation : 
+// To create strings by doing substitutin of placeholders
+console.log("String Interpolation");
+console.log("To create strings by doing substitutin of placeholders");
+console.log("`string text ${expression}string text`");
+
+console.log("Kshitij \nMohan \tYadav");
+
+//String Methods
+let str5 = "apna";
+let str6 = "college";
+
+let res = str5.concat(str6);
+console.log(res);
+let res2 = str6.concat(str5);
+console.log(res2);
+
+console.log(res2.replace("a" , "A"));
+
+// Practice Ques 
+/*
+let fullName2 = prompt("Enter your full Name");
+let userName2 = ("@" + fullName2 + fullName2.length);
+
+console.log(userName2);
+*/
+
