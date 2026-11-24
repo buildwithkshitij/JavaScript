@@ -419,3 +419,10 @@ let userName2 = ("@" + fullName2 + fullName2.length);
 console.log(userName2);
 */
 
+//Arrays
+console.log("Arrays");
+console.log("Collections of items");
+
+let heroes = ["ironman", "hulk" , "thor"];
+console.log(heroes);
+console.log(heroes.length);
